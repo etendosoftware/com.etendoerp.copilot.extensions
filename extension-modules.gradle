@@ -1,0 +1,7 @@
+ext.defaultExtensionModules = [
+        'git@bitbucket.org:koodu_software/com.etendoerp.copilot.git',
+        'git@bitbucket.org:koodu_software/com.etendoerp.copilot.openapi.purchase.git',
+        'git@bitbucket.org:koodu_software/com.etendoerp.copilot.openapi.git',
+        'git@bitbucket.org:koodu_software/com.etendoerp.copilot.ocrtool.git',
+        'git@bitbucket.org:koodu_software/com.etendoerp.copilot.dbquerytool.git'
+]

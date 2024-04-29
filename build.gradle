@@ -1,0 +1,51 @@
+/**
+*   This file was generated automatically by the 'createModuleBuild' task.
+*   Created at: 2022-07-08T19:29:16.377934Z.
+*
+*   WARNING: Do not put your credentials directly in this file.
+*
+*/
+
+group          = "com.etendoerp"
+version        = "1.0.0"
+description    = "Etendo Copilot Extensions"
+ext.artifact   = "copilot.extensions"
+ext.repository = "https://maven.pkg.github.com/etendosoftware/com.etendoerp.copilot.extensions"
+apply from: 'extension-modules.gradle'
+configurations {
+    moduleDependencyContainer
+}
+
+publishing {
+    publications {
+        "com.etendoerp.copilot.extensions"(MavenPublication) {
+            from components.java
+            groupId    = group
+            artifactId = artifact
+            version    = version
+        }
+    }
+    repositories {
+        maven {
+            url "https://maven.pkg.github.com/etendosoftware/com.etendoerp.copilot.extensions"
+        }
+    }
+}
+
+repositories {
+    mavenCentral()
+    maven {
+        url "https://maven.pkg.github.com/etendosoftware/com.etendoerp.copilot.extensions"
+    }
+}
+
+/**
+* Declare Java dependencies using 'implementation'
+* Ex: implementation "com.sun.mail:javax.mail:1.6.2"
+*/
+dependencies {
+    implementation('com.etendoerp:copilot:1.2.6')
+    implementation('com.etendoerp:copilot.openapi.purchase:1.0.0')
+    implementation('com.etendoerp:copilot.dbquerytool:1.0.3')
+    implementation('com.etendoerp:copilot.xmltranslationtool:1.1.1')
+}
