@@ -51,4 +51,5 @@ dependencies {
     implementation('com.etendoerp:copilot.dbquerytool:1.4.1')
     implementation('com.etendoerp:copilot.xmltranslationtool:1.4.0')
     implementation('com.etendoerp:copilot.toolpack:1.2.1')
+    implementation('com.etendoerp:copilot.devassistant:1.1.0')
 }
