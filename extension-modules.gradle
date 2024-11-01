@@ -1,11 +1,11 @@
 ext.defaultExtensionModules = [
-        'git@bitbucket.org:koodu_software/com.etendoerp.copilot.git',
+        'git@github.com:etendosoftware/com.etendoerp.copilot.git',
         'git@bitbucket.org:koodu_software/com.etendoerp.copilot.openapi.purchase.git',
         'git@bitbucket.org:koodu_software/com.etendoerp.copilot.openapi.git',
         'git@bitbucket.org:koodu_software/com.etendoerp.copilot.ocrtool.git',
         'git@bitbucket.org:koodu_software/com.etendoerp.copilot.dbquerytool.git',
-        'git@bitbucket.org:koodu_software/com.etendoerp.copilot.xmltranslationtool.git',
-        'git@bitbucket.org:koodu_software/com.etendoerp.copilot.toolpack.git',
-        'git@bitbucket.org:koodu_software/com.etendoerp.copilot.devassistant.git',
+        'git@github.com:etendosoftware/com.etendoerp.copilot.xmltranslationtool.git',
+        'git@github.com:etendosoftware/com.etendoerp.copilot.toolpack.git',
+        'git@github.com:etendosoftware/com.etendoerp.copilot.devassistant.git',
         'git@github.com:etendosoftware/com.etendoerp.subapp.copilot.git'
 ]
