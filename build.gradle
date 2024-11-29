@@ -7,7 +7,7 @@
 */
 
 group          = "com.etendoerp"
-version        = "1.8.1"
+version        = "1.8.2"
 description    = "Etendo Copilot Extensions"
 ext.artifact   = "copilot.extensions"
 ext.repository = "https://maven.pkg.github.com/etendosoftware/com.etendoerp.copilot.extensions"
@@ -44,11 +44,11 @@ repositories {
 * Ex: implementation "com.sun.mail:javax.mail:1.6.2"
 */
 dependencies {
-    implementation('com.etendoerp:copilot:1.9.1')
+    implementation('com.etendoerp:copilot:1.9.2')
     implementation('com.etendoerp:copilot.xmltranslationtool:1.4.2')
-    implementation('com.etendoerp:copilot.toolpack:1.4.1')
-    implementation('com.etendoerp:copilot.devassistant:1.4.1')
-    implementation('com.etendoerp:subapp.copilot:1.2.1')
-    implementation('com.etendoerp:copilot.openapi.purchase:1.6.5')
+    implementation('com.etendoerp:copilot.toolpack:1.4.2')
+    implementation('com.etendoerp:copilot.devassistant:1.4.2')
+    implementation('com.etendoerp:subapp.copilot:1.2.2')
+    implementation('com.etendoerp:copilot.openapi.purchase:1.6.6')
 
 }
