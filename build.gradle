@@ -49,5 +49,6 @@ dependencies {
     implementation('com.etendoerp:copilot.toolpack:1.4.1')
     implementation('com.etendoerp:copilot.devassistant:1.4.1')
     implementation('com.etendoerp:subapp.copilot:1.2.1')
+    implementation('com.etendoerp:copilot.openapi.purchase:1.6.5')
 
 }
