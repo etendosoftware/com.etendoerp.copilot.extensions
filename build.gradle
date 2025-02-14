@@ -50,5 +50,5 @@ dependencies {
     implementation('com.etendoerp:copilot.devassistant:1.6.0')
     implementation('com.etendoerp:subapp.copilot:1.4.0')
     implementation('com.etendoerp:copilot.openapi.purchase:1.8.0')
-
+    implementation('com.etendoerp:copilot.template:1.0.0')
 }
