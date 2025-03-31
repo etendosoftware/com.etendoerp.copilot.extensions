@@ -1,15 +1,15 @@
 /**
-*   This file was generated automatically by the 'createModuleBuild' task.
-*   Created at: 2022-07-08T19:29:16.377934Z.
-*
-*   WARNING: Do not put your credentials directly in this file.
-*
-*/
+ *   This file was generated automatically by the 'createModuleBuild' task.
+ *   Created at: 2022-07-08T19:29:16.377934Z.
+ *
+ *   WARNING: Do not put your credentials directly in this file.
+ *
+ */
 
-group          = "com.etendoerp"
-version        = "1.12.0"
-description    = "Etendo Copilot Extensions"
-ext.artifact   = "copilot.extensions"
+group = "com.etendoerp"
+version = "1.12.0"
+description = "Etendo Copilot Extensions"
+ext.artifact = "copilot.extensions"
 ext.repository = "https://maven.pkg.github.com/etendosoftware/com.etendoerp.copilot.extensions"
 apply from: 'extension-modules.gradle'
 configurations {
@@ -20,9 +20,9 @@ publishing {
     publications {
         "com.etendoerp.copilot.extensions"(MavenPublication) {
             from components.java
-            groupId    = group
+            groupId = group
             artifactId = artifact
-            version    = version
+            version = version
         }
     }
     repositories {
@@ -40,15 +40,14 @@ repositories {
 }
 
 /**
-* Declare Java dependencies using 'implementation'
-* Ex: implementation "com.sun.mail:javax.mail:1.6.2"
-*/
+ * Declare Java dependencies using 'implementation'
+ * Ex: implementation "com.sun.mail:javax.mail:1.6.2"
+ */
 dependencies {
     implementation('com.etendoerp:copilot:1.12.0')
-    implementation('com.etendoerp:copilot.xmltranslationtool:1.5.0')
     implementation('com.etendoerp:copilot.toolpack:1.7.0')
     implementation('com.etendoerp:copilot.devassistant:1.7.0')
     implementation('com.etendoerp:subapp.copilot:1.6.0')
-    implementation('com.etendoerp:copilot.openapi.purchase:1.9.0')
     implementation('com.etendoerp:copilot.template:1.1.0')
+    implementation('com.etendoerp:copilot.agents:1.0.0')
 }

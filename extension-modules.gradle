@@ -1,9 +1,8 @@
 ext.defaultExtensionModules = [
         'git@github.com:etendosoftware/com.etendoerp.copilot.git',
-        'git@github.com:etendosoftware/com.etendoerp.copilot.xmltranslationtool.git',
         'git@github.com:etendosoftware/com.etendoerp.copilot.toolpack.git',
         'git@github.com:etendosoftware/com.etendoerp.copilot.devassistant.git',
         'git@github.com:etendosoftware/com.etendoerp.subapp.copilot.git',
-        'git@github.com:etendosoftware/com.etendoerp.copilot.openapi.purchase.git',
-        'git@github.com:etendosoftware/com.etendoerp.copilot.template.git'
+        'git@github.com:etendosoftware/com.etendoerp.copilot.template.git',
+        'git@github.com:etendosoftware/com.etendoerp.copilot.agents.git',
 ]
