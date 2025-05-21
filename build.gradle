@@ -7,7 +7,7 @@
  */
 
 group = "com.etendoerp"
-version = "1.14.0"
+version = "2.0.0"
 description = "Etendo Copilot Extensions"
 ext.artifact = "copilot.extensions"
 ext.repository = "https://maven.pkg.github.com/etendosoftware/com.etendoerp.copilot.extensions"
