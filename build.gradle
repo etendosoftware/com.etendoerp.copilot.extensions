@@ -51,5 +51,5 @@ dependencies {
     implementation('com.etendoerp:copilot.template:2.1.0')
     implementation('com.etendoerp:copilot.agents:2.1.0')
 
-    implementation('com.etendoerp.platform:etendo-core:[25.1.0,25.3.0)')
+    implementation('com.etendoerp.platform:etendo-core:[25.2.0,25.3.0)')
 }
